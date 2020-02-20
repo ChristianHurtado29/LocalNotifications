@@ -34,7 +34,7 @@ class CreateNotificationViewController: UIViewController {
         content.subtitle = "learning local notifications"
         content.sound = .default // only works in the background and the app is not on silent - please test on device
         // TODO: you can also import your own sound file
-        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "file.mp3"))
+        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "Ow.mp3"))
         // TODO: userInfo dictionary can hold additional data
         // content.userInfo = ["":""]
         // create identifier
